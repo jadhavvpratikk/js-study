@@ -86,5 +86,12 @@ undefined => NaN
 // console.log(typeof stringNumber);//string
 
 
+//Operations
+
+
+
+
+
+
 
 

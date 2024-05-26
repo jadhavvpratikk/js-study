@@ -60,6 +60,56 @@ console.log(y.length);  // undefined (valid, but might lead to runtime errors)
 // console.log(typeof myObj);//object
 // console.log(typeof myFunction);//function = for function it shows typeof as function
 
+// Memory
+// 2 types = Stack , Heap
+// Stack = Primitive types = We get a copy of primitive type variable
+
+
+// Heap = Non Primitive types / Reference types = we get a reference of non-primitive type
+
+// let myName = "Pratik Jadhav"
+// let anotherName = myName;//anotherName points to copy of value of myName
+
+// console.log(myName);//Pratik Jadhav
+// console.log(anotherName);//Pratik Jadhav
+
+// anotherName = "Jadhav Pratik";//anotherName now points to copy of new value
+
+// console.log(myName);//Pratik Jadhav
+// console.log(anotherName);//Jadhav Pratik
+
+
+//In Objects userOne is an object
+// let userOne = {
+//     email : "userone@gmail.com",
+//     upi : "userone@hdfc"
+// }
+
+//userTwo is pointing to userOne
+//let userTwo = userOne
+
+//So it is a reference type when u change the value by userOne or userTwo
+//So the value will be change and both of them will have same value as it is pointing to same reference
+
+//Here u see when u change the value of userTwo
+//By Dot (.) u access the object properties
+//userTwo.email = "usertwo@yahoo.com"
+
+//console.log(userOne.email);//Output : usertwo@yahoo.com
+// u print the userOne it shows the updated value change by userTwo
+//As it is pointing to same reference
+
+//Also check the userTwo email
+//console.log(userTwo.email);//Output : usertwo@yahoo.com
+
+
+
+
+
+
+
+
+
 
 
 

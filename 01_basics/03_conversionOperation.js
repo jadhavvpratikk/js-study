@@ -75,9 +75,16 @@ undefined => NaN
 // console.log(booleanIsLoggedIn);//"" - empty String - false
 
 
-let isLoggedIn = "pratik"
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);//"pratik" - full String - true
+// let isLoggedIn = "pratik"
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);//"pratik" - full String - true
+
+// let someNumber = 33//number
+// console.log(typeof someNumber);//number
+// let stringNumber = String(someNumber)//number to String conversion
+// console.log(stringNumber);//33 as string
+// console.log(typeof stringNumber);//string
+
 
 
 

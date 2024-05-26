@@ -87,11 +87,62 @@ undefined => NaN
 
 
 //Operations
+// let value = 3
+// let negValue = -value
+// console.log(negValue);//-3
+// console.log(2+2);//4
+// console.log(1-2);//-1
+// console.log(2*2);//4
+// console.log(2**4);//2 power of 4 is 16 => 2*2*2*2 = 16
+// console.log(10/2);//5 = Quotient
+// console.log(5%2);//1 = Remainder
+
+// let str1 = "hello"
+
+// let str2 = " pratik"
+
+// let str3 = str1 + str2
+
+// console.log(str3)//hello pratik
+
+// console.log(1 + "2");//12 = number has 1 element and string has one element but string has the priority first 
+// console.log(typeof (1 + "2"));//string
+
+// console.log("1" + 2);//12 = string has one element but string has the priority first and number has 1 element
+// console.log(typeof ("1" + 2));//string
+
+// console.log("1" + 2 + 2);//122 = String has the priority first because of inverted commas is the first element 
+//                         //and then number has 2 elements
+
+// console.log(1 + 2 + "2");//32 = Number has the priority first because of number is with the 2 elements
+
+//Tricky Conversion
+
+// console.log(true);//true
+// console.log(+true);//1
+// //console.log(true+);//exception
+// console.log(+"");//0
 
 
+//Not recommendedto write below code
+// let num1, num2, num3
+// num1 = num2 = num3 = 2+2
+// console.log(num1,num2,num3);
 
 
+// let gameCounter = 100
+// gameCounter++
+// console.log(gameCounter);//101
 
+//Postfix and Prefix
+//Reference Link = https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+//Reference Link = https://tc39.es/ecma262/#sec-type-conversion
 
+// let x = 3
+// let y = x++//y=3
+// //here x = 4 because of postfix
+// console.log(`x = ${x} and y = ${y}`);//Postfix means after x++ line it changes x = 3 value to 4 
 
-
+// let a = 3
+// let b = ++a//a = 4 because of prefix and b = 4 
+// console.log(`a = ${a} and b = ${b}`);//prefix means before ++x line it changes x = 3 value to 4

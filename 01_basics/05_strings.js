@@ -51,8 +51,8 @@
 
 // console.log(url.includes("pratik"));//true
 
-const splitName = "Pratik-Harichandra-Jadhav"
-console.log(splitName.split("-"));//[ 'Pratik', 'Harichandra', 'Jadhav' ]
+// const splitName = "Pratik-Harichandra-Jadhav"
+// console.log(splitName.split("-"));//[ 'Pratik', 'Harichandra', 'Jadhav' ]
 
 
 

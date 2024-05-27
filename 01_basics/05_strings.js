@@ -30,6 +30,24 @@ const gameName = new String ('GTA Vice-City')
 
 //Original value of gameName is not changed, it takes a copy of it and changes the value of copy
 
+const newString = gameName.substring(4,13);//In SubString dont allow negative value it starts from 0th index
+//13 because it doesnt include the 13 index of String 
+console.log(newString);//Vice-City
+
+const sliceString = gameName.slice(0,4);//4 because it doesnt include the 4 index of String
+console.log(sliceString);//GTA
+
+const negativeSlice = gameName.slice(-13,-10);
+//In slice, -10 means it goes in reverse direction = -13 means G, -12 means T, -11 means A
+//because it doesnt include the -10 index of String
+console.log(negativeSlice);//GTA
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@ index starts from 0
 //1st way to declare array
 const myArray = [0,1,2,3,4,5];
 
-console.log(myArray);//[ 0, 1, 2, 3, 4, 5 ]
+//console.log(myArray);//[ 0, 1, 2, 3, 4, 5 ]
 //console.log(myArray[1]);//1
 
 //2nd way to declare array
@@ -43,7 +43,27 @@ const names = new Array("Pratik", "Sameer", "Kiran", "Vinit");
 
 //slice , splice
 
-console.log("A ", myArray);
+console.log("A ", myArray);//A  [ 0, 1, 2, 3, 4, 5 ]
+
+//slice - It performs actions on deep copy(means it uses different references)
+//It will incude index of 1, 2 and 3rd index will be excluded but not removed from main array
+
+const newSlice = myArray.slice(1,3);
+
+console.log(newSlice);//[ 1, 2 ]
+
+console.log("B ", myArray);//[ 1, 2 ]
+
+//splice will incude the 1 , 2 and 3 last index and also removed from main array
+//It performs actions on shallow copy(means it uses same references)
+
+const newSplice = myArray.splice(1,3);
+
+console.log(newSplice);//[1, 2, 3]
+
+console.log("C ", myArray);//C  [ 0, 4, 5 ]
+
+
 
 
 

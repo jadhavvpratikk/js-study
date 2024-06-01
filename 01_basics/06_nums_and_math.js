@@ -32,6 +32,20 @@ const balance = new Number(100)
 //for lowest number we use ceil function
 //console.log(Math.floor(4.9));//here output is compulsary 4 as lower value is considered
 
+// console.log(Math.min(4,5,3,1,9,11,6));//minimum element from array will be output = 1
+// console.log(Math.max(4,5,3,1,9,11,6));//maximum element from array will be output = 11
+
+// console.log(Math.random());//random number will be output between 0 and 1
+// console.log((Math.random()*10) + 1);//random number will be multiply by 10 
+// console.log(Math.floor(Math.random()*10) + 1);// here floor gives the lower value and we added 1 so we get value above 1
+
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);//here we will get value between min and max
+
+
+
 
 
 

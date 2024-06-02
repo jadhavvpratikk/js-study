@@ -46,4 +46,9 @@ const JsUsers = {
 JsUsers.greeting = function(){
     console.log("Hello inside greeting");
 }
+JsUsers.greeting2 = function(){
+    console.log(`Hello inside greeting2 ${this.name}`);//this is used to make same object as a reference
+}
 console.log(JsUsers.greeting);//[Function (anonymous)] = means function is not executed it reference is return back
+console.log(JsUsers.greeting());//Hello inside greeting
+console.log(JsUsers.greeting2());//Hello inside greeting2 Pratik

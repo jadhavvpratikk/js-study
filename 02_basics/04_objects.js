@@ -62,9 +62,42 @@ const usersdata = [
 
 // console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true = It check that tinderUser has this key present in or not
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true = It check that tinderUser has this key present in or not
 
-console.log(tinderUser.hasOwnProperty('isLogged'));//false = because it is not present
+// console.log(tinderUser.hasOwnProperty('isLogged'));//false = because it is not present
+
+const course = {
+    coursename : "JavaScript",
+    courseprice: 999,
+    courseinstructor : "Pratik"
+};
+
+//course.courseinstructor = way to extract each key value
+
+//recommended way
+// const {courseinstructor} = course;//recommeded way to extract  on left side mention key name to extract and
+//                                  // right side mention the object from where to extract
+
+// console.log(courseinstructor);//Pratik
+
+
+//Object destructing
+// const {courseinstructor : sir} = course;// now here courseinstructor key is replaced with name as sir
+
+// console.log(sir);//Pratik
+
+//json object 
+// {
+//     "name" : "pratik",
+//     "course" : "Gym",
+//     "price" : 1000
+// }
+
+
+
+
+
+
 
 
 
